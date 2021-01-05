@@ -25,6 +25,11 @@ int main(void) {
   
   cout << a << " add " << b << " = " << add(a,b) << endl;
 
+  int m = 1;
+  int n = 2;
+
+  cout << m << " add " << n << " = " << add(m,n) << endl;
+
   auto arr = make_array<4>();
   auto arr2 = make_array<5>();
 
